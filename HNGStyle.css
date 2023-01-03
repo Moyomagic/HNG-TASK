@@ -1,0 +1,116 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.nav-container {
+  background-color: #212529;
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  line-height: 3.5;
+}
+
+header,
+.header-2 {
+  display: flex;
+  gap: 30px;
+  color: #adb5bd;
+  font-size: 12px;
+}
+.header-2 {
+  margin-left: 500px;
+  gap: 80px;
+}
+header {
+  margin-left: -5px;
+  justify-content: space-around;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav img {
+  height: 25px;
+}
+nav div {
+  margin-left: 195px;
+}
+.book-button {
+  border: solid 1px #ffd43b;
+  width: 90px;
+  padding: 5px;
+  color: #ffd43b;
+}
+/*.book-button a:link {
+  color: #ffd43b;
+}*/
+#nav-home {
+  color: #ffd43b;
+  padding: 10px;
+  border: solid 3px #ffd43b;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 3px;
+}
+nav a {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+nav a:link {
+  color: #adb5bd;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.section-content {
+  width: 700px;
+  height: 200px;
+  margin: 20px auto;
+}
+section {
+  background-image: url("Home Pix.png");
+  height: 800px;
+  color: #adb5bd;
+}
+section .section-header {
+  width: 400px;
+  margin: 0 auto;
+  background-color: red;
+}
+section form {
+  margin-top: 250px;
+}
+section input {
+  width: 180px;
+  height: 30px;
+}
+section button {
+  height: 30px;
+  background-color: #ffd43b;
+  border: none;
+  width: 120px;
+}
+aside {
+  display: flex;
+  justify-content: space-between;
+  background-color: #343a40;
+  padding: 40px;
+  color: #adb5bd;
+  font-size: 18px;
+}
