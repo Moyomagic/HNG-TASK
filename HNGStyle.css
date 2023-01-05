@@ -79,8 +79,7 @@ nav a:link {
   text-decoration: none;
 }
 .section-content {
-  width: 700px;
-  height: 200px;
+  width: 400px;
   margin: 20px auto;
 }
 section {
@@ -88,24 +87,32 @@ section {
   height: 800px;
   color: #adb5bd;
 }
-section .section-header {
+.section-header {
   width: 400px;
   margin: 0 auto;
-  background-color: red;
+  padding-top: 200px;
 }
 section form {
-  margin-top: 250px;
+  margin: 50px auto;
+  width: 700px;
 }
 section input {
   width: 180px;
-  height: 30px;
+  height: 50px;
+  margin-left: -3px;
+  border: none;
 }
 section button {
-  height: 30px;
+  height: 50px;
   background-color: #ffd43b;
   border: none;
   width: 120px;
+  margin-left: -5px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-left: none;
 }
+
 aside {
   display: flex;
   justify-content: space-between;
@@ -113,4 +120,73 @@ aside {
   padding: 40px;
   color: #adb5bd;
   font-size: 18px;
+}
+.box {
+  background-color: #212529;
+  color: #adb5bd;
+}
+.box-images {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+.yellow-box {
+  margin-top: -6px;
+  border-top: none;
+  width: 340px;
+}
+.box p {
+  padding: 30px;
+  text-align: center;
+}
+.box-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+}
+.btn {
+  width: 10px;
+  height: 10px;
+  border: solid #ffd43b 1px;
+  border-radius: 10px;
+}
+.btn-filled {
+  background-color: #ffd43b;
+}
+.carousel-btns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 60px;
+}
+.article-header {
+  text-align: center;
+  padding: 50px;
+}
+.book-btn {
+  padding: 15px;
+  border: solid 2px #ffd43b;
+  width: 250px;
+  margin: 10px auto;
+}
+.article-images {
+  display: flex;
+  justify-content: space-around;
+}
+.img-wrap img {
+  border: none;
+  margin-bottom: 20px;
+}
+.img-wrap {
+  border: solid #ffd43b 2px;
+  width: 330px;
+  text-align: center;
+}
+.img-wrap p {
+  margin-bottom: 15px;
+}
+article {
+  background-image: url("Rectangle 44.png");
 }
