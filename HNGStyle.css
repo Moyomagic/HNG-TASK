@@ -187,6 +187,107 @@ aside {
 .img-wrap p {
   margin-bottom: 15px;
 }
+
+.fa-solid {
+  font-size: 44px;
+  margin-right: 8px;
+}
+
 article {
-  background-image: url("Rectangle 44.png");
+  background-image: url("minh-pham-7pCFUybP_P8-unsplash.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+main {
+  background-image: url("Rectangle 17.png");
+  height: 100vh;
+  color: #adb5bd;
+  display: flex;
+  align-items: center;
+}
+.main-imgs {
+  padding: 50px;
+  position: relative;
+}
+.main-content {
+  width: 600px;
+  padding: 30px;
+  line-height: 1.5;
+}
+.main-post {
+  margin-top: 20px;
+}
+.main-post button {
+  padding: 8px;
+  background-color: #ffd43b;
+  border: none;
+  margin-top: 40px;
+  border-radius: 4px;
+}
+.main-post p {
+  margin-top: 30px;
+}
+.yellow-room {
+  width: 580px;
+  height: 280px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.main-bed {
+  position: absolute;
+  left: 140px;
+  top: 20px;
+  border-radius: 8px;
+}
+
+.map-area {
+  background-color: #212529;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+footer {
+  background-color: black;
+  color: #adb5bd;
+  padding: 30px;
+}
+.footer-content {
+  display: flex;
+  gap: 120px;
+  line-height: 1.5;
+  justify-content: center;
+}
+.footer-content ul {
+  list-style: none;
+}
+/*.footer-content ul::first-line {
+  color: red;
+  pad
+}*/
+.footer-head {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+footer form {
+  position: relative;
+}
+footer form input {
+  height: 30px;
+  width: 250px;
+  background-color: #343a40;
+  border: none;
+}
+.footer-btn {
+  position: absolute;
+  height: 30px;
+  right: -2px;
+  width: 70px;
+  background-color: #ffd43b;
+  border: none;
+}
+.footer-aside {
+  display: flex;
+  gap: 30px;
+  margin-left: 50%;
 }
